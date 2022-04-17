@@ -1,0 +1,13 @@
+.background-gradiant-product{
+    background-image: linear-gradient(to right , #637678, #1B3639);
+    height: auto;
+}
+
+.background-gradiant-booking{
+    background-image: linear-gradient(to right , #8f8d8d, #B9B9B9);
+    height: auto;
+}
+
+.width-product-image{
+    width: 40%;
+}

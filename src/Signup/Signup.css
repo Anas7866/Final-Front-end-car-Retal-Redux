@@ -1,0 +1,9 @@
+.linear-background{
+    background-image: linear-gradient(to right, white , lightgray) ;
+    height: 100vh;
+    
+}
+.padding-laptop{
+    padding-top: 8%;
+    padding-bottom: 2%;
+}

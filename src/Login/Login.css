@@ -1,0 +1,88 @@
+.background-gradiant{
+    background-image: linear-gradient(to right,#2B6777, #144855 );
+    height: 100vh;
+    /* padding: 20px 90px 33px 85px; */
+}
+
+.background-white{
+    background-color: white;
+   
+}
+
+.background-chnge{
+    background-color: white;
+    border-radius: 20px;
+    height: 90vh;
+    
+}
+
+
+
+.image-size{
+    width: 60%;
+    margin: auto;
+   
+    
+}
+
+.login-section{
+    padding-top: 12%;
+}
+
+
+
+.field-background{
+    background-color: lightgray;
+    border-radius: 40px;
+    
+
+}
+
+
+
+.button-color{
+    background-color: lightgray;
+    border-color: lightgray;
+    border-radius: 40px;
+    color: black;
+}
+
+.button-color:hover{
+    background-color: #081868;
+    border-color: #081868;
+    color: white;
+    transition: 0.5s;
+}
+
+.button-padding{
+    padding-left: 18%;
+    padding-right: 18%;
+    background-color: #2B6777;
+    border-color: #2B6777;
+    border-radius: 20px;
+    
+    
+}
+
+.txt2 {
+    font-family: Poppins-Regular;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #666666;
+  }
+
+.text-hover:hover{
+      color:#081868 ;
+  }
+
+  /* #effect-11 ~ .focus-bg{position: absolute; left: 0; top: 0; width: 0; height: 100%; background-color: #ededed; transition: 0.3s; z-index: -1;}
+  #effect-11:focus ~ .focus-bg{transition: 0.3s; width: 100%;}
+
+
+  #effect-11{border: 0; padding: 7px 15px; border: 1px solid #ccc; position: relative; background: transparent;} */
+
+  .focus-1{
+    background-color: lightgray;
+    transition: 0.5s;
+   
+}

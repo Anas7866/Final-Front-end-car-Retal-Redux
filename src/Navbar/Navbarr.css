@@ -1,0 +1,194 @@
+#nav-dropdown{
+    background-color: white;
+    border-radius: 40px;
+}
+
+#nav-dropdown:hover{
+    background-color: #2b6777;
+    transition: 0.9s;
+    color: white;
+    
+}
+
+.navbar-fixed-top {
+    left: 0;
+    top: 0;
+    position: sticky;
+    right: 0;
+    width: 100%;
+    z-index: 1030;
+  }
+
+  .hover-auth-button
+  {
+    background-color: #2b6777;
+    border-color: #2b6777;
+    border-radius: 20px;
+  }
+
+
+  .hover-auth-button:hover{
+    background-color: lightgray;
+    color: #2b6777;
+  }
+
+/* .active{
+  background-color:#2B6777;
+  color:#fff;
+  border-radius: 20px ;
+  color:  white;
+
+} */
+/* .main-nav:hover{
+  color:rgb(244, 168, 17);
+  text-decoration: none;
+  
+}
+
+  .main-nav-active {
+    background-color: rgb(244, 168, 17);
+  } */
+
+
+/* /////////////////////////////////////////////////// */
+
+/*General Menu Styling*/
+
+/* li{list-style: none;}
+li a{text-decoration: none;}
+.dropdown{position: absolute; width: 150px;top: 41px; opacity: 0;visibility: hidden;transition: ease-out .35s;-moz-transition: ease-out .35s;-webkit-transition: ease-out .35s;} */
+/* .mainnav li{float: left;padding: 5px;background: maroon;border-left: 1px dotted #fff;} */
+/* .mainnav li:first-child{border: none;}
+.mainnav li a{ display: block;padding: 2px 20px;color: #fff;font-family: arial;}
+.mainnav li:hover{background: rgb(206, 45, 45);transition: ease-in .35s;-moz-transition: ease-in .35s;-webkit-transition: ease-in .35s; text-decoration: none;}
+.mainnav li:hover a{color: maroon;transition: ease-in .35s;-moz-transition: ease-in .35s;-webkit-transition: ease-in .35s;} */
+/*First Level*/
+/* .subs {left: -36px;position: relative;top: 12px;width: 175px;border-left: none !important; border-bottom: 1px dotted #fff !important;}
+.subs:last-child{border: none !important;}
+.hassubs:hover .dropdown,.hassubs .hassubs:hover .dropdown{opacity: 1;visibility: visible; transition: ease-in .35s;-moz-transition: ease-in .35s;-webkit-transition: ease-in .35s;}
+.mainnav li:hover ul a,.mainnav li:hover ul li ul li a{color: white;}
+.mainnav li ul li:hover,.mainnav li ul li ul li:hover{background: #fff;transition: ease-in-out .35s;-moz-transition: ease-in-out .35s;-webkit-transition: ease-in-out .35s;}
+.mainnav li ul li:hover a,.mainnav li ul li ul li:hover a{color: maroon;transition: ease-in-out .35s;-moz-transition: ease-in-out .35s;-webkit-transition: ease-in-out .35s;} */
+/*Second Level*/
+/* .hassubs .hassubs .dropdown .subs{left: 25px;position: relative;width: 165px;top: 0px;}
+.hassubs .hassubs .dropdown{position: absolute;width: 150px;left: 120px;top: 0px;opacity: 0;visibility: hidden;transition: ease-out .35s;-moz-transition: ease-out .35s;-webkit-transition: ease-out .35s;} */
+/* .dropdown-submenu {
+    position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  } */
+
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    
+   
+  }
+  
+  ul li {
+    display: block;
+    position: relative;
+    float: left;
+    
+    
+
+    
+  }
+  
+  /* This hides the dropdowns */
+  
+  
+li ul { display: none; }
+  
+  ul li .atag{
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    white-space: nowrap;
+    color: rgb(112, 27, 27);
+    border-radius: 20px;
+    
+   
+  }
+
+  ul li .atag1{
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    white-space: nowrap;
+    
+    
+  
+   
+   
+  }
+
+  /* ul li a:hover { background: #2b6777; } */
+  
+  /* Display the dropdown */
+  
+  
+  li:hover > ul {
+    display: block;
+    position: absolute;
+    transition: 0.4s;
+    margin-top: 2%;
+    font-size: 90%;
+    
+    
+    
+    
+
+   
+  }
+  
+  li:hover li { float: none; transition: 0.4s; }
+  
+  /* li:hover a { background: #2b6777; transition: 0.4s; } */
+  
+  li:hover li a:hover { background: #3B5998; transition: 0.4s; }
+  
+  .main-navigation li ul li { border-top: 0; }
+  
+  /* Displays second level dropdowns to the right of the first level dropdown */
+  
+  
+  ul ul ul {
+    left: 100%;
+    top: 0;
+    
+  }
+  
+  /* Simple clearfix */
+  
+  
+  
+  ul:before,
+  ul:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  
+  ul:after { clear: both; }
+
+  #a-tag{
+      color: black;
+      text-decoration: none;
+  }
+  #a-tag:hover{
+    color: white;
+}
+
+#a-tag-1{
+    text-decoration: none;
+    color: white;
+}
+
+
